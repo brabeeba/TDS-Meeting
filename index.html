@@ -132,6 +132,59 @@ these tasks.</p>
 			<li><a href="https://arxiv.org/abs/2011.10436">Paper</a> </li>
 		</ul>
 
+		<p>(2/19) SNOW Revisited: Understanding When Ideal READ Transactions Are Possible: Kishori Konwar</p>
+			<ul>
+			<strong>Abstract:</strong>
+			<p> READ transactions that read data distributed across servers 
+dominate the workloads of real-world distributed storage systems. The 
+SNOW Theorem stated that ideal READ transactions that have optimal 
+latency and the strongest guarantees— i.e., “SNOW” READ 
+transactions—are impossible in one specific setting that requires 
+three or more clients: at least two readers and one writer. However, 
+it left many open questions.  We close all of these open questions 
+with new impossibility results and new algorithms.</p>
+<p>First, we prove rigorously the original result saying that it is 
+impossible to have a READ transactions system that satisfies SNOW 
+properties with three or more clients. The insight we gained from this 
+proof led to teasing out the implicit assumptions that are required to 
+state the results and also, resolving the open question regarding the 
+possibility of SNOW with two clients. We show that SNOW is possible in 
+a multi-writer, single-reader (MWSR) setting when a client can send 
+messages to other clients with an algorithm; on the other hand, we 
+prove it is impossible to implement SNOW in a multi-writer, 
+single-reader (MWSR) setting–which is more general than the two-client 
+setting–when client-to-client communication is disallowed. We also 
+correct the previous claim that incorrectly identified one existing 
+system, Eiger, as supporting the strongest guarantees (SW) and whose 
+read-only transactions had bounded latency. Thus, there were no 
+previous algorithms that provided the strongest guarantees and had 
+bounded latency. Finally, we introduce the first two algorithms to 
+provide the strongest guarantees with bounded latency.</p> 
+		
+		</ul>
+
+		<p>(3/12) Algorithmic insights on continual learning from fruit flies: Saket Navlakha</p>
+			<ul>
+			<strong>Abstract:</strong>
+			<p> Continual learning in computational systems is challenging 
+due to catastrophic forgetting. We found a two-layer circuit in the 
+fruit fly olfactory system that helps to address these challenges by 
+uniquely combining two common ideas: sparse coding and associative 
+learning. In the first layer, odors are encoded using sparse, 
+high-dimensional representations, which reduces memory interference by 
+activating non-overlapping populations of neurons for different odors. 
+In the second layer, only the synapses between odor-activated neurons 
+and the odor’s associated output neuron are modified during learning; 
+the rest of the weights are frozen to prevent unrelated memories from 
+being overwritten. We show empirically and analytically that this 
+simple algorithm boosts continual learning performance compared to 
+existing algorithms. We also find that the fly’s associative learning 
+algorithm is similar to the classic perceptron learning algorithm, 
+albeit two modifications, which we prove are critical for reducing 
+catastrophic forgetting.</p> 
+		
+		</ul>
+
 	</ul>
 	<a href="https://accessibility.mit.edu/">Accessibility</a>
 				
